@@ -7,9 +7,16 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch test",
+            "name": "Build Cache",
             "runtimeVersion": "16",
-            "program": "${workspaceFolder}/index.js"
+            "program": "${workspaceFolder}/build-cache.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Build List",
+            "runtimeVersion": "16",
+            "program": "${workspaceFolder}/build-list.js"
         }
     ]
 }

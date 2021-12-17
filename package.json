@@ -1,0 +1,28 @@
+{
+  "name": "pokemon-lineup-optimizer",
+  "version": "0.0.1",
+  "description": "Make the optimal pokemon lineup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-cache": "node build-cache.js",
+    "build-list": "node build-list.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgaull/pokemon-lineup-optimizer.git"
+  },
+  "author": "Jonathan Gaull",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jgaull/pokemon-lineup-optimizer/issues"
+  },
+  "homepage": "https://github.com/jgaull/pokemon-lineup-optimizer#readme",
+  "dependencies": {
+    "clone-deep": "^4.0.1",
+    "combinatorial-generators": "^1.0.1",
+    "fs-extra": "^10.0.0",
+    "pokedex-promise-v2": "^4.0.0"
+  },
+  "type": "module"
+}
